@@ -24,7 +24,10 @@ pip3 install MLB-StatsAPI pypdf
 
 # install your input.pdf template file
 cd mlb-lineup-writer
-(and copy your file into the mlb-lineup-writer directory)
+   and copy your file into the mlb-lineup-writer directory)
+   and make sure it is set as the input file at the top of
+   the mlb-lineup-writer python script
+
 
 #----------------------------
 #--- to run the program -----
@@ -32,7 +35,7 @@ cd mlb-lineup-writer
 
 cd mlb-lineup-writer
 source bin/activate
-python3 MYPROGRAMNAMEHERE
+python3 mlb-lineup-writer
 
 # your output will be in output.pdf in this directory
 
@@ -40,6 +43,6 @@ python3 MYPROGRAMNAMEHERE
 #-- set your desired team ---
 #----------------------------
 
-Edit the top of the python script to set your desired
-team.  I highly recommend the Philadelphia Phillies :-)
+At the top of the python script uncomment the name of your
+desired team.  I highly recommend the Philadelphia Phillies :-)
 
