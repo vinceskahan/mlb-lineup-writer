@@ -1,6 +1,5 @@
 lib/
 bin/
-input.pdf
 away.input
 bin
 example.player_stats
@@ -8,9 +7,6 @@ foo
 foo2
 foo3
 include
-input-lou.pdf
-input-reisner.pdf
-input.pdf
 lib
 output.pdf
 pyvenv.cfg
