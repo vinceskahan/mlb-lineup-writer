@@ -118,7 +118,10 @@ for game in games:
                     except:
                         hitter_stats[shortid] = "n/a"
                     # convert Right to R and Left to L
-                    side[shortid] = player_stats[shortid]['bat_side'][:1]
+                    try:
+                        side[shortid] = player_stats[shortid]['bat_side'][:1]
+                    except:
+                        side[shortid] = "n/a"
 
                 elif (stats['group'] == "pitching"):
                     try:
@@ -126,7 +129,10 @@ for game in games:
                     except:
                         pitcher_stats[shortid] = "n/a"
                     # convert Right to R and Left to L
-                    side[shortid] = player_stats[shortid]['pitch_hand'][:1]
+                    try:
+                        side[shortid] = player_stats[shortid]['pitch_hand'][:1]
+                    except:
+                        side[shortid] = "-"
 
         print("... done mapping players and getting their stats ...")
 
@@ -152,10 +158,20 @@ for game in games:
         away_order = [ ]
         away_batter_avgs = [ ]
         away_batter_side = [ ]
+        # TODO: this needs work - for a player with no games played yet
+        #       the try/except should be in the finding the player stats
+        #       up top in this program, not in every place the stats
+        #       need to be used below.  For now we'll brute force it.
         for p in gamedata['away']['battingOrder']:
             away_order.append(boxscoreMap[p])
-            away_batter_avgs.append(hitter_stats[p]['avg'])
-            away_batter_side.append(side[p])
+            try:
+                away_batter_avgs.append(hitter_stats[p]['avg'])
+            except:
+                away_batter_avgs.append("---")
+            try:
+                away_batter_side.append(side[p])
+            except:
+                away_batter_side.append("-")
         print(away_order)
         print(away_batter_avgs)
 
@@ -405,7 +421,7 @@ elif template == "Lou":
     home_batter_side4 = [48, 371, 58, 381]
     home_batter_side5 = [48, 332, 58, 342]
     home_batter_side6 = [48, 293, 58, 303]
-    home_batter_side7 = [48, 258, 58, 265]
+    home_batter_side7 = [48, 255, 58, 265]
     home_batter_side8 = [48, 217, 58, 227]
 
     home_starter_side0 = [48, 127, 58, 137]
