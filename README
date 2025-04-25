@@ -51,3 +51,13 @@ python3 mlb-lineup-writer
 Go appropriately wild :-)
 
 
+#----------------------------
+#-- re: the example output --
+#----------------------------
+
+Browser rendering of the PDF files sometimes results
+in things not looking quite lined up perfectly.  If you
+'download' the PDF and open it, it looks correct and normal.
+
+
+
