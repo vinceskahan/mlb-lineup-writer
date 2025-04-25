@@ -141,7 +141,10 @@ for game in games:
         away_pen_eras = [ ]
         for p in gamedata['away']['bullpen']:
             away_pen.append(boxscoreMap[p])
-            away_pen_eras.append(pitcher_stats[p]['era'])
+            try:
+                away_pen_eras.append(pitcher_stats[p]['era'])
+            except:
+                away_pen_eras.append("n/a")
         print(away_pen)
         print(away_pen_eras)
 
@@ -150,7 +153,10 @@ for game in games:
         away_bench_stats = [ ]
         for p in gamedata['away']['bench']:
             away_bench.append(boxscoreMap[p])
-            away_bench_stats.append(hitter_stats[p]['avg'])
+            try:
+                away_bench_stats.append(hitter_stats[p]['avg'])
+            except:
+                away_bench_stats.append("n/a")
         print(away_bench)
         print(away_bench_stats)
 
@@ -181,8 +187,10 @@ for game in games:
         away_starter_side = [ ]
         for p in gamedata['away']['pitchers']:
             away_starter.append(boxscoreMap[p])
-            away_starter_eras.append(pitcher_stats[p]['era'])
-            away_starter_side.append(side[p])
+            try:
+                away_starter_eras.append(pitcher_stats[p]['era'])
+            except:
+                away_starter_side.append("-")
             break   # first pitcher is starter
         print(away_starter)
         print(away_starter_eras)
@@ -194,7 +202,10 @@ for game in games:
         home_pen_eras = [ ]
         for p in gamedata['home']['bullpen']:
             home_pen.append(boxscoreMap[p])
-            home_pen_eras.append(pitcher_stats[p]['era'])
+            try:
+                home_pen_eras.append(pitcher_stats[p]['era'])
+            except:
+                home_pen_eras.append("n/a")
         print(home_pen)
         print(home_pen_eras)
 
@@ -203,7 +214,10 @@ for game in games:
         home_bench_stats = [ ]
         for p in gamedata['home']['bench']:
             home_bench.append(boxscoreMap[p])
-            home_bench_stats.append(hitter_stats[p]['avg'])
+            try:
+                home_bench_stats.append(hitter_stats[p]['avg'])
+            except:
+                home_bench_stats.append(n/a)
         print(home_bench)
         print(home_bench_stats)
 
@@ -213,8 +227,14 @@ for game in games:
         home_batter_side = [ ]
         for p in gamedata['home']['battingOrder']:
             home_order.append(boxscoreMap[p])
-            home_batter_avgs.append(hitter_stats[p]['avg'])
-            home_batter_side.append(side[p])
+            try:
+                home_batter_avgs.append(hitter_stats[p]['avg'])
+            except:
+                home_batter_avgs.append("n/a")
+            try:
+                home_batter_side.append(side[p])
+            except:
+                home_batter_side.append("-")
         print(home_order)
         print(home_batter_avgs)
 
@@ -224,8 +244,14 @@ for game in games:
         home_starter_side = [ ]
         for p in gamedata['home']['pitchers']:
             home_starter.append(boxscoreMap[p])
-            home_starter_eras.append(pitcher_stats[p]['era'])
-            home_starter_side.append(side[p])
+            try:
+                home_starter_eras.append(pitcher_stats[p]['era'])
+            except:
+                home_starter_eras.append("n/a")
+            try:
+                home_starter_side.append(side[p])
+            except:
+                home_starter_side.append("-")
             break   # first pitcher is starter
         print(home_starter)
         print(home_starter_eras)
