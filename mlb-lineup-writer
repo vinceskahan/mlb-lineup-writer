@@ -31,7 +31,7 @@ myteam = "Philadelphia Phillies"    # over 11,000 losses.  Feel the angst.
 # myteam = "Tampa Bay Rays"
 # myteam = "Texas Rangers"
 # myteam = "Toronto Blue Jays"
-myteam = "Washington Nationals"
+# myteam = "Washington Nationals"
 
 # this is hard-coded for now.....
 template = "Reisner"               # my custom Reisner scorekeeping derivative template
@@ -421,47 +421,47 @@ elif template == "Lou":
     scoreboard_awayteamgeom = [374, 58, 426, 68]
     scoreboard_hometeamgeom = [374, 38, 426, 48]
 
-    away_batters0 = [70, 523, 150, 533]
-    away_batters1 = [70, 486, 150, 496]
-    away_batters2 = [70, 447, 150, 457]
-    away_batters3 = [70, 408, 150, 418]
-    away_batters4 = [70, 371, 150, 381]
-    away_batters5 = [70, 332, 150, 342]
-    away_batters6 = [70, 293, 150, 303]
-    away_batters7 = [70, 255, 150, 265]
-    away_batters8 = [70, 217, 150, 227]
+    away_batters0 = [63, 523, 138, 533]
+    away_batters1 = [63, 485, 138, 495]
+    away_batters2 = [63, 447, 138, 457]
+    away_batters3 = [63, 408, 138, 418]
+    away_batters4 = [63, 371, 138, 381]
+    away_batters5 = [63, 332, 138, 342]
+    away_batters6 = [63, 293, 138, 303]
+    away_batters7 = [63, 255, 138, 265]
+    away_batters8 = [63, 217, 138, 227]
 
-    away_batter_avgs0 = [150, 523, 170, 533]
-    away_batter_avgs1 = [150, 486, 170, 496]
-    away_batter_avgs2 = [150, 447, 170, 457]
-    away_batter_avgs3 = [150, 408, 170, 418]
-    away_batter_avgs4 = [150, 371, 170, 381]
-    away_batter_avgs5 = [150, 332, 170, 342]
-    away_batter_avgs6 = [150, 293, 170, 303]
-    away_batter_avgs7 = [150, 255, 170, 265]
-    away_batter_avgs8 = [150, 217, 170, 227]
+    away_batter_avgs0 = [145, 523, 170, 533]
+    away_batter_avgs1 = [145, 485, 170, 495]
+    away_batter_avgs2 = [145, 447, 170, 457]
+    away_batter_avgs3 = [145, 408, 170, 418]
+    away_batter_avgs4 = [145, 371, 170, 381]
+    away_batter_avgs5 = [145, 332, 170, 342]
+    away_batter_avgs6 = [145, 293, 170, 303]
+    away_batter_avgs7 = [145, 255, 170, 265]
+    away_batter_avgs8 = [145, 217, 170, 227]
 
     away_batter_side0 = [48, 523, 58, 533]
-    away_batter_side1 = [48, 486, 58, 496]
+    away_batter_side1 = [48, 485, 58, 495]
     away_batter_side2 = [48, 447, 58, 457]
     away_batter_side3 = [48, 408, 58, 418]
     away_batter_side4 = [48, 371, 58, 381]
     away_batter_side5 = [48, 332, 58, 342]
     away_batter_side6 = [48, 293, 58, 303]
-    away_batter_side7 = [48, 258, 58, 265]
+    away_batter_side7 = [48, 258, 58, 268]
     away_batter_side8 = [48, 217, 58, 227]
 
     away_starter_side0 = [48,  127,  58, 137]
-    away_starter0      = [70,  127, 150, 137]
-    away_starter_eras0 = [150, 127, 170, 137]
+    away_starter0      = [63,  127, 138, 137]
+    away_starter_eras0 = [143, 127, 170, 137]
 
-    away_bench0 = [395, 141, 455, 150]
-    away_bench1 = [395, 131, 455, 140]
-    away_bench2 = [395, 121, 455, 130]
-    away_bench3 = [395, 111, 455, 120]
-    away_bench4 = [395, 101, 455, 110]
-    away_bench5 = [395,  91, 455, 100]
-    away_bench6 = [395,  81, 455,  90]
+    away_bench0 = [395, 141, 455, 151]
+    away_bench1 = [395, 131, 455, 141]
+    away_bench2 = [395, 121, 455, 131]
+    away_bench3 = [395, 111, 455, 121]
+    away_bench4 = [395, 101, 455, 111]
+    away_bench5 = [395,  91, 455, 101]
+    away_bench6 = [395,  81, 455,  91]
 
     away_pen0  = [501, 140, 568, 150]
     away_pen1  = [501, 130, 568, 140]
@@ -479,28 +479,28 @@ elif template == "Lou":
     away_pen13 = [642, 110, 712, 120]
     away_pen14 = [642, 100, 712, 110]
 
-    home_batters0 = [70, 523, 150, 533]
-    home_batters1 = [70, 486, 150, 496]
-    home_batters2 = [70, 447, 150, 457]
-    home_batters3 = [70, 408, 150, 418]
-    home_batters4 = [70, 371, 150, 381]
-    home_batters5 = [70, 332, 150, 342]
-    home_batters6 = [70, 293, 150, 303]
-    home_batters7 = [70, 255, 150, 265]
-    home_batters8 = [70, 217, 150, 227]
+    home_batters0 = [63, 523, 138, 533]
+    home_batters1 = [63, 485, 138, 495]
+    home_batters2 = [63, 447, 138, 457]
+    home_batters3 = [63, 408, 138, 418]
+    home_batters4 = [63, 371, 138, 381]
+    home_batters5 = [63, 332, 138, 342]
+    home_batters6 = [63, 293, 138, 303]
+    home_batters7 = [63, 255, 138, 265]
+    home_batters8 = [63, 217, 138, 227]
 
-    home_batter_avgs0 = [150, 523, 170, 533]
-    home_batter_avgs1 = [150, 486, 170, 496]
-    home_batter_avgs2 = [150, 447, 170, 457]
-    home_batter_avgs3 = [150, 408, 170, 418]
-    home_batter_avgs4 = [150, 371, 170, 381]
-    home_batter_avgs5 = [150, 332, 170, 342]
-    home_batter_avgs6 = [150, 293, 170, 303]
-    home_batter_avgs7 = [150, 255, 170, 265]
-    home_batter_avgs8 = [150, 217, 170, 227]
+    home_batter_avgs0 = [145, 523, 170, 533]
+    home_batter_avgs1 = [145, 485, 170, 495]
+    home_batter_avgs2 = [145, 447, 170, 457]
+    home_batter_avgs3 = [145, 408, 170, 418]
+    home_batter_avgs4 = [145, 371, 170, 381]
+    home_batter_avgs5 = [145, 332, 170, 342]
+    home_batter_avgs6 = [145, 293, 170, 303]
+    home_batter_avgs7 = [145, 255, 170, 265]
+    home_batter_avgs8 = [145, 217, 170, 227]
 
     home_batter_side0 = [48, 523, 58, 533]
-    home_batter_side1 = [48, 486, 58, 496]
+    home_batter_side1 = [48, 485, 58, 495]
     home_batter_side2 = [48, 447, 58, 457]
     home_batter_side3 = [48, 408, 58, 418]
     home_batter_side4 = [48, 371, 58, 381]
@@ -514,16 +514,16 @@ elif template == "Lou":
     # home page only for Lou template
     date_loc   = [380,  30, 450, 40 ]
 
-    home_starter0 = [70, 127, 150, 137]
-    home_starter_eras0 = [150, 127, 170, 137]
+    home_starter0      = [63,  127, 138, 137]
+    home_starter_eras0 = [143, 127, 170, 137]
 
-    home_bench0 = [395, 141, 455, 150]
-    home_bench1 = [395, 131, 455, 140]
-    home_bench2 = [395, 121, 455, 130]
-    home_bench3 = [395, 111, 455, 120]
-    home_bench4 = [395, 101, 455, 110]
-    home_bench5 = [395,  91, 455, 100]
-    home_bench6 = [395,  81, 455,  90]
+    home_bench0 = [395, 141, 455, 151]
+    home_bench1 = [395, 131, 455, 141]
+    home_bench2 = [395, 121, 455, 131]
+    home_bench3 = [395, 111, 455, 121]
+    home_bench4 = [395, 101, 455, 111]
+    home_bench5 = [395,  91, 455, 101]
+    home_bench6 = [395,  81, 455,  91]
 
     home_pen0  = [501, 140, 568, 150]
     home_pen1  = [501, 130, 568, 140]
@@ -574,14 +574,14 @@ def write_annotation(p,item,qty):
     for n in range(qty):
         loc = eval(item + str(n))
         try:
-            # this is black on transparent
+            # this is the default black on transparent
             writer.add_annotation(page_number=p,annotation=FreeText(text=players[n], rect=loc))
 
             # background colors
             #    ff0000 = red , 00ff00 = green, 0000ff = blue, ffff00 = yellow, ff00ff = purple, 00ffff = cyan
 
-            # white on red to show text location rectangles - font_color doesn't appear to work
-            #writer.add_annotation(page_number=p,annotation=FreeText(text=players[n], rect=loc, font_color="00ff00",border_color="FFFFFF",background_color="FF0000"))
+            # white on red to show text location rectangles 
+            # writer.add_annotation(page_number=p,annotation=FreeText(text=players[n], rect=loc, font_color="00ff00",border_color="FFFFFF",background_color="FF0000"))
 
         except:
             pass
