@@ -31,11 +31,11 @@ myteam = "Philadelphia Phillies"    # over 11,000 losses.  Feel the angst.
 # myteam = "Tampa Bay Rays"
 # myteam = "Texas Rangers"
 # myteam = "Toronto Blue Jays"
-# myteam = "Washington Nationals"
+myteam = "Washington Nationals"
 
 # this is hard-coded for now.....
-#template = "Reisner"               # my custom Reisner scorekeeping derivative template
-template = "Lou"                   # my custom thirty81project.com generic scorecard derivative template
+template = "Reisner"               # my custom Reisner scorekeeping derivative template
+#template = "Lou"                   # my custom thirty81project.com generic scorecard derivative template
 
 input_filename  = "input.pdf"
 output_filename = "output.pdf"
@@ -286,10 +286,10 @@ if template == "Reisner":
     date_loc           = [ 40, 760, 95,  770 ]
 
     # these geom might need tweaking when records get to nn-nnn or nnn-nn
-    awayteamgeom       = [ 15, 746, 65,  756]
-    awayteamrecordgeom = [ 66, 746, 107, 756]
-    hometeamgeom       = [ 15, 735, 65,  743]
-    hometeamrecordgeom = [ 66, 735, 107, 743]
+    awayteamgeom       = [ 15, 746, 64,  756]
+    awayteamrecordgeom = [ 65, 746, 103, 756]
+    hometeamgeom       = [ 15, 733, 64,  743]
+    hometeamrecordgeom = [ 65, 733, 103, 743]
 
     away_batters0 = [25, 698, 100, 708]
     away_batters1 = [25, 645, 100, 655]
@@ -326,29 +326,29 @@ if template == "Reisner":
     away_starter_eras0 = [ ]
     away_starter_side0 = [ ]
 
-    home_bench0 = [231, 128, 314, 137]
-    home_bench1 = [231, 118, 314, 127]
-    home_bench2 = [231, 108, 314, 117]
-    home_bench3 = [231,  98, 314, 107]
-    home_bench4 = [231,  88, 314,  97]
-    home_bench5 = [231,  78, 314,  87]
-    home_bench6 = [231,  68, 314,  77]
+    home_bench0 = [235, 128, 308, 137]
+    home_bench1 = [235, 118, 308, 127]
+    home_bench2 = [235, 108, 308, 117]
+    home_bench3 = [235,  98, 308, 107]
+    home_bench4 = [235,  88, 308,  97]
+    home_bench5 = [235,  78, 308,  87]
+    home_bench6 = [235,  68, 308,  77]
 
-    away_pen0  = [331, 131, 398, 140]
-    away_pen1  = [331, 121, 398, 130]
-    away_pen2  = [331, 111, 398, 120]
-    away_pen3  = [331, 101, 398, 110]
-    away_pen4  = [331,  91, 398, 100]
-    away_pen5  = [331,  81, 398,  90]
-    away_pen6  = [331,  71, 398,  80]
-    away_pen7  = [331,  61, 398,  70]
-    away_pen8  = [331,  51, 398,  60]
-    away_pen9  = [331,  41, 398,  50]
-    away_pen10 = [331,  31, 398,  40]
-    away_pen11 = [331,  31, 398,  40]
-    away_pen12 = [331,  31, 398,  40]
-    away_pen13 = [331,  31, 398,  40]
-    away_pen14 = [331,  31, 398,  40]
+    away_pen0  = [345, 130, 401, 138]
+    away_pen1  = [345, 120, 401, 128]
+    away_pen2  = [345, 110, 401, 118]
+    away_pen3  = [345, 100, 401, 108]
+    away_pen4  = [345,  90, 401,  98]
+    away_pen5  = [345,  80, 401,  88]
+    away_pen6  = [345,  70, 401,  78]
+    away_pen7  = [345,  60, 401,  68]
+    away_pen8  = [345,  50, 401,  58]
+    away_pen9  = [345,  40, 401,  48]
+    away_pen10 = [345,  30, 401,  38]
+    away_pen11 = [345,  20, 401,  28]
+    away_pen12 = [345,  10, 401,  18]
+    away_pen13 = [ ]
+    away_pen14 = [ ]
 
     home_batters0 = [25, 696, 100, 706]
     home_batters1 = [25, 643, 100, 653]
@@ -385,27 +385,27 @@ if template == "Reisner":
     home_starter_eras0 = [ ]
     home_starter_side0 = [ ]
 
-    away_bench0 = [231, 131, 317, 140]
-    away_bench1 = [231, 121, 317, 130]
-    away_bench2 = [231, 111, 317, 120]
-    away_bench3 = [231, 101, 317, 110]
-    away_bench4 = [231,  91, 317, 100]
-    away_bench5 = [231,  81, 317,  90]
-    away_bench6 = [231,  71, 317,  80]
+    away_bench0 = [235, 131, 308, 140]
+    away_bench1 = [235, 121, 308, 130]
+    away_bench2 = [235, 111, 308, 120]
+    away_bench3 = [235, 101, 308, 110]
+    away_bench4 = [235,  91, 308, 100]
+    away_bench5 = [235,  81, 308,  90]
+    away_bench6 = [235,  71, 308,  80]
 
-    home_pen0  = [337, 130, 398, 139]
-    home_pen1  = [337, 120, 398, 129]
-    home_pen2  = [337, 110, 398, 119]
-    home_pen3  = [337, 100, 398, 109]
-    home_pen4  = [337,  90, 398,  99]
-    home_pen5  = [337,  80, 398,  89]
-    home_pen6  = [337,  70, 398,  79]
-    home_pen7  = [337,  60, 398,  69]
-    home_pen8  = [337,  50, 398,  59]
-    home_pen9  = [337,  40, 398,  49]
-    home_pen10 = [337,  30, 398,  39]
-    home_pen11 = [337,  20, 398,  39]
-    home_pen12 = [337,  10, 398,  39]
+    home_pen0  = [345, 130, 401, 139]
+    home_pen1  = [345, 120, 401, 129]
+    home_pen2  = [345, 110, 401, 119]
+    home_pen3  = [345, 100, 401, 109]
+    home_pen4  = [345,  90, 401,  99]
+    home_pen5  = [345,  80, 401,  89]
+    home_pen6  = [345,  70, 401,  79]
+    home_pen7  = [345,  60, 401,  69]
+    home_pen8  = [345,  50, 401,  59]
+    home_pen9  = [345,  40, 401,  49]
+    home_pen10 = [345,  30, 401,  39]
+    home_pen11 = [345,  20, 401,  39]
+    home_pen12 = [345,  10, 401,  39]
     home_pen13 = [ ]
     home_pen14 = [ ]
 
@@ -574,7 +574,15 @@ def write_annotation(p,item,qty):
     for n in range(qty):
         loc = eval(item + str(n))
         try:
+            # this is black on transparent
             writer.add_annotation(page_number=p,annotation=FreeText(text=players[n], rect=loc))
+
+            # background colors
+            #    ff0000 = red , 00ff00 = green, 0000ff = blue, ffff00 = yellow, ff00ff = purple, 00ffff = cyan
+
+            # white on red to show text location rectangles - font_color doesn't appear to work
+            #writer.add_annotation(page_number=p,annotation=FreeText(text=players[n], rect=loc, font_color="00ff00",border_color="FFFFFF",background_color="FF0000"))
+
         except:
             pass
 
