@@ -34,8 +34,8 @@ myteam = "Philadelphia Phillies"    # over 11,000 losses.  Feel the angst.
 # myteam = "Washington Nationals"
 
 # this is hard-coded for now.....
-template = "Reisner"               # my custom Reisner scorekeeping derivative template
-#template = "Lou"                   # my custom thirty81project.com generic scorecard derivative template
+#template = "Reisner"               # my custom Reisner scorekeeping derivative template
+template = "Lou"                   # my custom thirty81project.com generic scorecard derivative template
 
 input_filename  = "input.pdf"
 output_filename = "output.pdf"
