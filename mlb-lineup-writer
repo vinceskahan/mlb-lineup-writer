@@ -453,7 +453,7 @@ elif template == "Lou":
     away_batters8 = [68, 254, 143, 264]
 
     away_batter_avgs0 = [192, 542, 213, 552]
-    away_batter_avgs1 = [192, 506, 213, 515]
+    away_batter_avgs1 = [192, 506, 213, 516]
     away_batter_avgs2 = [192, 470, 213, 480]
     away_batter_avgs3 = [192, 434, 213, 444]
     away_batter_avgs4 = [192, 398, 213, 408]
@@ -463,7 +463,7 @@ elif template == "Lou":
     away_batter_avgs8 = [192, 254, 213, 264]
 
     home_starter_side0 = [37,  170,  46, 180]
-    home_starter0      = [66,  170, 144, 180]
+    home_starter0      = [67,  170, 144, 180]
     home_starter_eras0 = [191, 170, 214, 180]
 
     away_bench0 = [425, 180, 485, 190]
@@ -515,7 +515,7 @@ elif template == "Lou":
     home_batters8 = [68, 241, 143, 251]
 
     home_batter_avgs0 = [192, 529, 213, 539]
-    home_batter_avgs1 = [192, 493, 213, 505]
+    home_batter_avgs1 = [192, 493, 213, 503]
     home_batter_avgs2 = [192, 457, 213, 467]
     home_batter_avgs3 = [192, 421, 213, 431]
     home_batter_avgs4 = [192, 385, 213, 395]
@@ -525,7 +525,7 @@ elif template == "Lou":
     home_batter_avgs8 = [192, 241, 213, 251]
 
     away_starter_side0 = [37,  157,  46, 167]
-    away_starter0      = [66,  157, 144, 167]
+    away_starter0      = [67,  157, 144, 167]
     away_starter_eras0 = [191, 157, 214, 167]
 
     home_bench0 = [425, 167, 485, 177]
