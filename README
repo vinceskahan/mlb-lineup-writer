@@ -59,5 +59,19 @@ Browser rendering of the PDF files sometimes results
 in things not looking quite lined up perfectly.  If you
 'download' the PDF and open it, it looks correct and normal.
 
+#----------------------------
+#-- about GoodNotes        --
+#----------------------------
 
+If you AirDrop the output to your iPad it might look odd
+in GoodNotes in that things are surrounded by boxes and 
+are sometimes offset.  I can only guess this has something
+to do with non-visible boxes and the resulting PDF from this
+program.
+
+The workaround is to open the output file in your Mac finder
+and then print to a PDF file, and then AirDrop 'that' PDF.
+That printed-to-file PDF will look as expected in GoodNotes.
+
+Weird to say the least.
 
