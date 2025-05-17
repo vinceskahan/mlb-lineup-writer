@@ -428,7 +428,7 @@ elif template == "Lou":
 
     # next to scoreboard
     scoreboard_awayteamgeom = [374, 58, 466, 68]
-    scoreboard_hometeamgeom = [374, 38, 466, 48]
+    scoreboard_hometeamgeom = [374, 36, 466, 46]
 
     #------ away card -----
 
@@ -479,16 +479,16 @@ elif template == "Lou":
     home_pen2  = [561, 160, 638, 170]
     home_pen3  = [561, 150, 638, 160]
     home_pen4  = [561, 140, 638, 150]
-    home_pen5  = [630, 180, 710, 190]
-    home_pen6  = [630, 170, 710, 180]
-    home_pen7  = [630, 160, 710, 170]
-    home_pen8  = [630, 150, 710, 160]
-    home_pen9  = [630, 140, 710, 150]
-    home_pen10 = [712, 180, 782, 190]
-    home_pen11 = [712, 170, 782, 180]
-    home_pen12 = [712, 160, 782, 170]
-    home_pen13 = [712, 150, 782, 160]
-    home_pen14 = [712, 140, 782, 150]
+    home_pen5  = [561, 140, 638, 150]
+    home_pen6  = [561, 140, 638, 150]
+    home_pen7  = [630, 180, 710, 190]
+    home_pen8  = [630, 170, 710, 180]
+    home_pen9  = [630, 160, 710, 170]
+    home_pen10 = [630, 150, 710, 160]
+    home_pen11 = [630, 140, 710, 150]
+    home_pen12 = [630, 130, 710, 140]
+    home_pen13 = [630, 120, 710, 130]
+    home_pen14 = [630, 110, 710, 120]
 
     #----- home card ----
     hometeamrecordgeom = [120, 575, 200, 585]
@@ -541,16 +541,16 @@ elif template == "Lou":
     away_pen2  = [561, 147, 638, 157]
     away_pen3  = [561, 137, 638, 147]
     away_pen4  = [561, 127, 638, 137]
-    away_pen5  = [630, 167, 710, 177]
-    away_pen6  = [630, 157, 710, 167]
-    away_pen7  = [630, 147, 710, 157]
-    away_pen8  = [630, 137, 710, 147]
-    away_pen9  = [630, 127, 710, 137]
-    away_pen10 = [712, 167, 782, 177]
-    away_pen11 = [712, 157, 782, 167]
-    away_pen12 = [712, 147, 782, 157]
-    away_pen13 = [712, 137, 782, 147]
-    away_pen14 = [712, 127, 782, 137]
+    away_pen5  = [561, 117, 638, 127]
+    away_pen6  = [561, 107, 638, 117]
+    away_pen7  = [630, 167, 710, 177]
+    away_pen8  = [630, 157, 710, 167]
+    away_pen9  = [630, 147, 710, 157]
+    away_pen10 = [630, 137, 710, 147]
+    away_pen11 = [630, 127, 710, 137]
+    away_pen12 = [630, 117, 710, 127]
+    away_pen13 = [630, 107, 710, 117]
+    away_pen14 = [630,  97, 710, 107]
 
     # home page only for Lou template
     date_loc   = [395,  40, 465, 50 ]
