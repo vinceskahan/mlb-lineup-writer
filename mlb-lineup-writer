@@ -427,7 +427,7 @@ elif template == "Lou":
     awayteamgeom       = [120, 580, 200, 590]
 
     # next to scoreboard
-    scoreboard_awayteamgeom = [374, 58, 466, 68]
+    scoreboard_awayteamgeom = [374, 57, 466, 67]
     scoreboard_hometeamgeom = [374, 36, 466, 46]
 
     #------ away card -----
