@@ -227,7 +227,7 @@ for game in games:
             try:
                 home_bench_stats.append(hitter_stats[p]['avg'])
             except:
-                home_bench_stats.append(n/a)
+                home_bench_stats.append("n/a")
         print(home_bench)
         print(home_bench_stats)
 
